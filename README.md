@@ -102,9 +102,6 @@ npm run dev
 ## Documentation
 Detailed documentation for each feature can be found in the `DOCS` directory:
 - SuperTokens authentication implementation
-- Stripe integration guides
-- Database schema and management
-- API documentation
 
 ## Learn More
 
