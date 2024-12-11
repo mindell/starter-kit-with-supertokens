@@ -88,12 +88,16 @@ npm install
 
 2. Set up your environment variables
 
-3. Start the development server:
+3. Run docker-compose
+```bash
+docker-compose up -d
+```
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Access the application at http://localhost:3000
+5. Access the application at http://localhost:3000
 
 ## Documentation
 Detailed documentation for each feature can be found in the `DOCS` directory:
