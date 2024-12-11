@@ -20,6 +20,88 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Features
+
+### Authentication with SuperTokens
+This starter kit comes with SuperTokens integration for robust authentication. Features include:
+- Email-password authentication
+- Session management
+- Protected routes
+- Server-side session verification
+
+For detailed SuperTokens implementation guides, check the `DOCS` folder:
+- Configuration setup
+- Adding authentication to API routes
+- Session management in frontend routes
+- Server component authentication
+- NextJS middleware implementation
+
+### Payment Processing with Stripe
+Integrated Stripe payment processing capabilities:
+- Secure payment processing
+- Subscription management
+- Payment intent creation
+- Webhook handling
+
+### Database with Supabase
+Built-in Supabase integration for:
+- Scalable PostgreSQL database
+- Real-time subscriptions
+- Storage capabilities
+- Database backups
+
+## Project Setup
+
+### Prerequisites
+- Node.js 18+ 
+- npm/yarn/pnpm
+- Docker (optional, for local development)
+
+### Environment Variables
+1. Copy `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+
+2. Configure the following variables in your `.env`:
+- SuperTokens configuration
+- Stripe API keys
+- Supabase credentials
+- Other application settings
+
+### Project Structure
+```
+├── DOCS/               # Detailed documentation
+├── prisma/             # Database schema and migrations
+├── public/            # Static assets
+├── src/
+│   ├── app/          # Next.js app directory
+│   ├── components/   # Reusable components
+│   └── lib/         # Utility functions and configurations
+```
+
+### Development Workflow
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Set up your environment variables
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Access the application at http://localhost:3000
+
+## Documentation
+Detailed documentation for each feature can be found in the `DOCS` directory:
+- SuperTokens authentication implementation
+- Stripe integration guides
+- Database schema and management
+- API documentation
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
